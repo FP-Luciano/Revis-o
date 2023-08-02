@@ -23,9 +23,11 @@ class Program
         biblioteca.AdicionarLeitor(leitor3);
 
         biblioteca.EmprestarLivro(leitor1, livro1);
+        biblioteca.EmprestarLivro(leitor1, livro2);
         biblioteca.EmprestarLivro(leitor2, livro2);
         biblioteca.EmprestarLivro(leitor3, livro3);
 
+        biblioteca.DevolverLivro(leitor1, livro2);
         biblioteca.DevolverLivro(leitor2, livro2);
         biblioteca.DevolverLivro(leitor3, livro3);
 

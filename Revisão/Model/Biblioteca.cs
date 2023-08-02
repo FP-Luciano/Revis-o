@@ -44,7 +44,7 @@ namespace Revisão.Model
         {
             if (livro.Disponivel || livro.LeitorQueEmprestou != leitor)
             {
-                Console.WriteLine($"{leitor.Nome} {leitor.Sobrenome} não pegou o livro \"{livro.Titulo}\" ({livro.Autor}) emprestado.");
+                Console.WriteLine($"{leitor.Nome} {leitor.Sobrenome} não pôde pegar o livro \"{livro.Titulo}\" ({livro.Autor}) emprestado.");
                 return;
             }
 
